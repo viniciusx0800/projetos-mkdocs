@@ -1,6 +1,6 @@
 site_name: Minhas Atividades
 site_description: Registro das minhas atividades e projetos
-site_author: Seu Nome
+site_author: Marcos Vinicius
 theme:
   name: material  # Tema moderno e bonito
 nav:
@@ -8,3 +8,48 @@ nav:
   - Atividades:
       - Atividade 1: atividades/atividade1.md
       - Atividade 2: atividades/atividade2.md
+
+
+
+# Plugins
+plugins:
+  - swagger-ui-tag
+  - search
+  - mkdocs-pdf
+  #- pdf-export
+# Config
+theme:
+  name: material
+  logo: assets/Grafismo BRANCOgrosso.png
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-RoyalBlue	
+      accent: deep-RoyalBlue	
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-RoyalBlue	
+      accent: deep-RoyalBlue	
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/main-logo.svg
+
+  # Customization
+extra:
+  social:
+    - icon: fontawesome/brands/whatsapp
+      link: ht
+    - icon: fontawesome/brands/linkedin
+      link: ht
+    - icon: fontawesome/solid/registered
+      link: ht
+    
