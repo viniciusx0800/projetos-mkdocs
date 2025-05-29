@@ -1,0 +1,10 @@
+site_name: Minhas Atividades
+site_description: Registro das minhas atividades e projetos
+site_author: Seu Nome
+theme:
+  name: material  # Tema moderno e bonito
+nav:
+  - Início: index.md
+  - Atividades:
+      - Atividade 1: atividades/atividade1.md
+      - Atividade 2: atividades/atividade2.md
