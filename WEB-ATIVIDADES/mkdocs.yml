@@ -1,5 +1,5 @@
-site_name: Minhas Atividades
-site_description: Registro das minhas atividades e projetos
+site_name: Meus Estudos e Projetos
+site_description: Registro dos meus estudos e projetos
 site_author: Marcos Vinicius
 
 nav:
@@ -15,14 +15,14 @@ theme:
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
+      primary: blue
       accent: blue-grey
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
+      primary: blue
       accent: green
       toggle:
         icon: material/brightness-4
@@ -33,7 +33,7 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/whatsapp
+    - icon: fontawesome/brands/instagram
       link: ht
     - icon: fontawesome/brands/linkedin
       link: ht
@@ -41,7 +41,7 @@ extra:
       link: ht
 
 plugins:
-  - swagger-ui-tag
+  # - swagger-ui-tag
   - search
   - mkdocs-pdf
   # - pdf-export
